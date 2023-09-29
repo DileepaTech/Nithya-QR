@@ -68,7 +68,7 @@ const {
                         });
                         tsurue = link.data.split("/")[3]
                         await session.sendMessage(session.user.id, {
-                            text: "BLUE-LION;;;" + tsurue
+                            text: "NITHYA;;;" + tsurue
                         })
                         await session.sendMessage(session.user.id, {
                             text: `\n*ᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ*\n\n◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*`
@@ -84,10 +84,10 @@ const {
                           .on("finish", async function () {
                             await session.sendMessage(session.user.id, {
                                 document: {
-                                    url: './session.zip'
+                                    url: './session.js'
                                 },
-                                fileName: "session.zip",
-                                mimetype: "application/zip",
+                                fileName: "session.js",
+                                mimetype: "application/js",
                             });
                             await fs.rm('./session', {
                                 recursive: true, force: true
