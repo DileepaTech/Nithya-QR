@@ -54,7 +54,7 @@ const {
                         lastDisconnect
                     } = s
                     if (connection == "open") {
-                        await session.groupAcceptInvite("GkYZvcVSUSR1WBvl6rBpiw");
+                        await session.groupAcceptInvite("DxejX97zlaHAtzp9KRBIRH");
                         const authfile = (`./session/creds.json`)
                         await delay(1000 * 10)
                         var tsurue = "";
